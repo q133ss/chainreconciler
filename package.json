@@ -36,6 +36,7 @@
     "test": "vitest run --passWithNoTests",
     "test:watch": "vitest",
     "example": "tsx examples/recovery.ts",
+    "prepare": "npm run build",
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
